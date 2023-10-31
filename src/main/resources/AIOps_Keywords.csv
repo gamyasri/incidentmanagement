@@ -1,0 +1,84 @@
+Keyword;Weight / Importance;Team
+Solvency;1;Acorn
+Aegis;1;Acorn
+UBC Mobile;1;Buck
+Notification;1;Buck
+Voucher;1;Buck
+Manual discount;1;Buck
+Promotion;1;Buck
+DeliveryMethod;1;Kronos
+KYC;1;Scrat
+Personal info page;1;Scrat
+Digital signature;1;Scrat
+ID Capture;1;Scrat
+Ajila;1;Scrat
+Order submission;1;Scrat
+Easy Point;1;Scrat
+Order Submission Framework;1;Scrat
+Datatrans;1;Scrat
+Payment;1;Scrat
+BillingProfiles;1;Scrat
+Activation;1;Hyperion
+Convergent;1;Argo
+Flavour Change;1;Kratos
+Bundle Change;1;Argo
+Tech Change;1;Hyperion
+Side Grade;1;Hyperion
+Move;1;Hyperion
+TV Option Change;1;Kronos
+Voice Option Change;1;Kronos
+Bonding;1;Kronos
+OTT;1;Argo
+Revise Order;1;Hyperion
+Simply Digital;1;Kronos
+Blitz;1;Hyperion
+Bundle Configurator;1;Atlas
+Lead;2;Scrat
+Sales Tool;2;Scrat
+Sales Offer;2;Scrat
+Prepaid;1;Sid
+updateauthenticationdata;2;Scrat
+oid-finalisation;2;Scrat
+Takeover;1;Scrat
+ID Upload;1;Scrat
+OID;2;Scrat
+ID types;2;Scrat
+Selfie;1;Scrat
+Document scanning;1;Scrat
+W- Blitz;1;Scrat
+Webcash Integration for Shop Channel;1;Sid
+BuyBack;1;Sid
+QR Code Scan;1;Sid
+Beep;1;Sid
+MD Options & SIM Management;1;Sid
+ngPortal;1;Sid
+Shopfinder;1;Wombat
+locator;1;Wombat
+Adria;1;Wombat
+Splashpage;1;Wombat
+newContractMobile;1;Acorn
+PortIn;1;Acorn
+Pre2Post Merge;1;Acorn
+Pre2Post;1;Acorn
+TakeOver B2B-to-B2C;1;Acorn
+Retention with Device;1;Acorn
+Retention with Promo;1;Acorn
+Retention;1;Acorn
+HardwareOnly;1;Buck
+HardwareOnlyPersonalLogistic;1;Buck
+HardwareSimplePay;1;Buck
+PhoneNumberChange;1;Buck
+TakeOver B2C-to-B2C;1;Scrat
+ActivationPrePaid;1;Sid
+PortInPrePaid;1;Sid
+Post2Pre;1;Sid
+B2B to B2C takeover;1;Sid
+Pre2Pre;1;Sid
+Correction Activation;1;Sid
+AssetedActivationCorrection;1;Sid
+Not AssetedActivationCorrection;1;Sid
+Retention Correction;1;Sid
+OptionChange;1;Wombat
+AboChange;1;Wombat
+SimplePayTermination;1;Wombat
+Cancellation;1;Wombat

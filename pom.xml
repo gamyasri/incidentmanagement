@@ -11,7 +11,7 @@
 	<groupId>com.swisscom</groupId>
 	<artifactId>aiops</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>AI Ops</name>
 	<description>Inno Days AI Ops</description>
 	<properties>

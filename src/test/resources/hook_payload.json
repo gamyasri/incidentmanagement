@@ -1,0 +1,1844 @@
+{
+  "incident": {
+    "eventId": "string",
+    "eventType": "string",
+    "publisherId": "string",
+    "timestamp": "2023-10-31T07:23:01.247207+01:00",
+    "incident": {
+      "sourceApplicationId": "API-Consumer",
+      "delegatingApplicationId": "API-Consumer",
+      "delegatedApplicationId": "Incident Management System",
+      "sourceIncidentId": "srcIncId-gh13",
+      "targetIncidentId": "trgtIncId-df9g79",
+      "sourceChannel": "phone",
+      "references": [
+        {
+          "applicationId": "XYZ",
+          "key": "inc-45678978454",
+          "referenceType": "related-to",
+          "objectType": "Incident"
+        },
+        {
+          "applicationId": "XYZ",
+          "key": "inc-45678978454",
+          "referenceType": "related-to",
+          "objectType": "Incident"
+        }
+      ],
+      "summary": "Retention has minor problems.",
+      "notes": "The display is disturbed with horizontal lines. Working with it is still possible.",
+      "publicDescription": "The display is disturbed with horizontal lines. Working with it is still possible.",
+      "templateName": "firewallConnectivity",
+      "impact": "moderate",
+      "urgency": "normal",
+      "priority": "medium",
+      "statusInfo": {
+        "status": "in_progress",
+        "statusReason": "customer_action_required",
+        "description": "Further detailed clarification required.",
+        "statusDateTime": "2020-04-17T15:00:00.123+02:00"
+      },
+      "authorityRelevant": true,
+      "detectedDateTime": "2022-07-08T01:02:03.401+01:00",
+      "reportedDateTime": "2022-07-08T08:12:15.546+01:00",
+      "estimatedResolutionDateTime": "2022-07-08T10:02:54.859+01:00",
+      "restoredDateTime": "2022-07-08T09:32:59.564+01:00",
+      "resolution": {
+        "description": "This Incident is cancelled because of some reason.",
+        "solvedBy": "string",
+        "causedBy": "string",
+        "resolutionDateTime": "2022-07-08T09:32:59.564+01:00",
+        "serviceAvailable": true,
+        "customerConfirmed": true
+      },
+      "categorizations": [
+        {
+          "tier1": "Phone",
+          "tier2": "Desktop phone",
+          "tier3": "Repair",
+          "type": "operational",
+          "additionalInformation": [
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            },
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier1": "Phone",
+          "tier2": "Desktop phone",
+          "tier3": "Repair",
+          "type": "operational",
+          "additionalInformation": [
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            },
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "involvedParties": [
+        {
+          "id": "maju",
+          "code": "code",
+          "externalReferenceNumber": "externalReferenceNumber",
+          "companyName": "companyName",
+          "companyIndexNumber": "companyIndexNumber",
+          "customerMasterAccount": "string",
+          "title": "ms",
+          "segment": "res",
+          "firstName": "Martha",
+          "lastName": "Jung",
+          "language": "fr",
+          "vip": false,
+          "sensitive": false,
+          "department": "Customer Assurance Center",
+          "organization": "INI-DOS-TDE",
+          "supportOrganization": "DOS",
+          "supportGroupName": "ARS Engineering",
+          "supportGroup": "CWS-CAC",
+          "supportCompany": "Cablex",
+          "contactPoints": [
+            {
+              "type": "address",
+              "value": "+41 79 520 89 65",
+              "address": {
+                "street": "Gerbiweg",
+                "houseNumber": "24a",
+                "locationDescription": "The red house.",
+                "flatId": "F 8.2",
+                "zip": "3274",
+                "city": "Bohl",
+                "additionalCity": "Thurgau",
+                "country": "CH"
+              },
+              "preferred": true
+            },
+            {
+              "type": "address",
+              "value": "+41 79 520 89 65",
+              "address": {
+                "street": "Gerbiweg",
+                "houseNumber": "24a",
+                "locationDescription": "The red house.",
+                "flatId": "F 8.2",
+                "zip": "3274",
+                "city": "Bohl",
+                "additionalCity": "Thurgau",
+                "country": "CH"
+              },
+              "preferred": true
+            }
+          ],
+          "contactPerson": {
+            "id": "maju",
+            "title": "ms",
+            "firstName": "Lukas",
+            "lastName": "Walder",
+            "comment": "Please ring at neighbours house.",
+            "contactPoints": [
+              {
+                "type": "address",
+                "value": "+41 79 520 89 65",
+                "address": {
+                  "street": "Gerbiweg",
+                  "houseNumber": "24a",
+                  "locationDescription": "The red house.",
+                  "flatId": "F 8.2",
+                  "zip": "3274",
+                  "city": "Bohl",
+                  "additionalCity": "Thurgau",
+                  "country": "CH"
+                },
+                "preferred": true
+              },
+              {
+                "type": "address",
+                "value": "+41 79 520 89 65",
+                "address": {
+                  "street": "Gerbiweg",
+                  "houseNumber": "24a",
+                  "locationDescription": "The red house.",
+                  "flatId": "F 8.2",
+                  "zip": "3274",
+                  "city": "Bohl",
+                  "additionalCity": "Thurgau",
+                  "country": "CH"
+                },
+                "preferred": true
+              }
+            ]
+          },
+          "role": "caller",
+          "partyType": "Cablex",
+          "floor": "2.OG",
+          "room": "L0/H22",
+          "desk": "D 1.1"
+        },
+        {
+          "id": "maju",
+          "code": "code",
+          "externalReferenceNumber": "externalReferenceNumber",
+          "companyName": "companyName",
+          "companyIndexNumber": "companyIndexNumber",
+          "customerMasterAccount": "string",
+          "title": "ms",
+          "segment": "res",
+          "firstName": "Martha",
+          "lastName": "Jung",
+          "language": "fr",
+          "vip": false,
+          "sensitive": false,
+          "department": "Customer Assurance Center",
+          "organization": "INI-DOS-TDE",
+          "supportOrganization": "DOS",
+          "supportGroupName": "ARS Engineering",
+          "supportGroup": "CWS-CAC",
+          "supportCompany": "Cablex",
+          "contactPoints": [
+            {
+              "type": "address",
+              "value": "+41 79 520 89 65",
+              "address": {
+                "street": "Gerbiweg",
+                "houseNumber": "24a",
+                "locationDescription": "The red house.",
+                "flatId": "F 8.2",
+                "zip": "3274",
+                "city": "Bohl",
+                "additionalCity": "Thurgau",
+                "country": "CH"
+              },
+              "preferred": true
+            },
+            {
+              "type": "address",
+              "value": "+41 79 520 89 65",
+              "address": {
+                "street": "Gerbiweg",
+                "houseNumber": "24a",
+                "locationDescription": "The red house.",
+                "flatId": "F 8.2",
+                "zip": "3274",
+                "city": "Bohl",
+                "additionalCity": "Thurgau",
+                "country": "CH"
+              },
+              "preferred": true
+            }
+          ],
+          "contactPerson": {
+            "id": "maju",
+            "title": "ms",
+            "firstName": "Lukas",
+            "lastName": "Walder",
+            "comment": "Please ring at neighbours house.",
+            "contactPoints": [
+              {
+                "type": "address",
+                "value": "+41 79 520 89 65",
+                "address": {
+                  "street": "Gerbiweg",
+                  "houseNumber": "24a",
+                  "locationDescription": "The red house.",
+                  "flatId": "F 8.2",
+                  "zip": "3274",
+                  "city": "Bohl",
+                  "additionalCity": "Thurgau",
+                  "country": "CH"
+                },
+                "preferred": true
+              },
+              {
+                "type": "address",
+                "value": "+41 79 520 89 65",
+                "address": {
+                  "street": "Gerbiweg",
+                  "houseNumber": "24a",
+                  "locationDescription": "The red house.",
+                  "flatId": "F 8.2",
+                  "zip": "3274",
+                  "city": "Bohl",
+                  "additionalCity": "Thurgau",
+                  "country": "CH"
+                },
+                "preferred": true
+              }
+            ]
+          },
+          "role": "caller",
+          "partyType": "Cablex",
+          "floor": "2.OG",
+          "room": "L0/H22",
+          "desk": "D 1.1"
+        }
+      ],
+      "involvedServices": {
+        "services": [
+          {
+            "identification": {
+              "type": "MySwisscom-Order",
+              "id": "av-sw-456",
+              "name": "MySwisscom-Order Wireless",
+              "locationId": "loc-CH-BE-3052",
+              "label": "ONeITSM"
+            },
+            "categorization": {
+              "tier1": "Software",
+              "tier2": "Antivirus",
+              "tier3": "Installation "
+            },
+            "additionalInformation": [
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              },
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "identification": {
+              "type": "Antivirus Software",
+              "id": "av-sw-456",
+              "name": "Norton Antivirus",
+              "locationId": "loc-CH-BE-3052",
+              "label": "ONeITSM"
+            },
+            "categorization": {
+              "tier1": "Software",
+              "tier2": "Antivirus",
+              "tier3": "Installation "
+            },
+            "additionalInformation": [
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              },
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "relatedServices": [
+          {
+            "identification": {
+              "type": "Antivirus Software",
+              "id": "av-sw-456",
+              "name": "Norton Antivirus",
+              "locationId": "loc-CH-BE-3052",
+              "label": "ONeITSM"
+            },
+            "categorization": {
+              "tier1": "Software",
+              "tier2": "Antivirus",
+              "tier3": "Installation "
+            },
+            "additionalInformation": [
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              },
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "identification": {
+              "type": "Antivirus Software",
+              "id": "av-sw-456",
+              "name": "Norton Antivirus",
+              "locationId": "loc-CH-BE-3052",
+              "label": "ONeITSM"
+            },
+            "categorization": {
+              "tier1": "Software",
+              "tier2": "Antivirus",
+              "tier3": "Installation "
+            },
+            "additionalInformation": [
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              },
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "involvedResources": {
+        "resources": [
+          {
+            "identification": {
+              "type": "Firewall",
+              "id": "fw-123",
+              "name": "Cisco Firewall Z3 Teleworker Gateway",
+              "locationId": "loc-CH-BE-3052",
+              "inventoryNumber": "inv455644",
+              "equipmentId": "eq89955",
+              "materialNumber": "mat-4555",
+              "serial": "sn:457457HZ",
+              "information": "Equips small companies and home offices for the fiber age.",
+              "label": "CSCF570"
+            },
+            "categorization": {
+              "tier1": "Phone",
+              "tier2": "Desktop phone",
+              "tier3": "Repair",
+              "product": "Phones",
+              "manufacturer": "Sony"
+            },
+            "additionalInformation": [
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              },
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "identification": {
+              "type": "Firewall",
+              "id": "fw-123",
+              "name": "Cisco Firewall Z3 Teleworker Gateway",
+              "locationId": "loc-CH-BE-3052",
+              "inventoryNumber": "inv455644",
+              "equipmentId": "eq89955",
+              "materialNumber": "mat-4555",
+              "serial": "sn:457457HZ",
+              "information": "Equips small companies and home offices for the fiber age.",
+              "label": "CSCF570"
+            },
+            "categorization": {
+              "tier1": "Phone",
+              "tier2": "Desktop phone",
+              "tier3": "Repair",
+              "product": "Phones",
+              "manufacturer": "Sony"
+            },
+            "additionalInformation": [
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              },
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "relatedResources": [
+          {
+            "identification": {
+              "type": "Firewall",
+              "id": "fw-123",
+              "name": "Cisco Firewall Z3 Teleworker Gateway",
+              "locationId": "loc-CH-BE-3052",
+              "inventoryNumber": "inv455644",
+              "equipmentId": "eq89955",
+              "materialNumber": "mat-4555",
+              "serial": "sn:457457HZ",
+              "information": "Equips small companies and home offices for the fiber age.",
+              "label": "CSCF570"
+            },
+            "categorization": {
+              "tier1": "Phone",
+              "tier2": "Desktop phone",
+              "tier3": "Repair",
+              "product": "Phones",
+              "manufacturer": "Sony"
+            },
+            "additionalInformation": [
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              },
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "identification": {
+              "type": "Firewall",
+              "id": "fw-123",
+              "name": "Cisco Firewall Z3 Teleworker Gateway",
+              "locationId": "loc-CH-BE-3052",
+              "inventoryNumber": "inv455644",
+              "equipmentId": "eq89955",
+              "materialNumber": "mat-4555",
+              "serial": "sn:457457HZ",
+              "information": "Equips small companies and home offices for the fiber age.",
+              "label": "CSCF570"
+            },
+            "categorization": {
+              "tier1": "Phone",
+              "tier2": "Desktop phone",
+              "tier3": "Repair",
+              "product": "Phones",
+              "manufacturer": "Sony"
+            },
+            "additionalInformation": [
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              },
+              {
+                "name": "On-Demand",
+                "attributes": [
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  },
+                  {
+                    "name": "SAP-Debitor",
+                    "value": "D-45978545"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "involvedLocations": [
+        {
+          "id": "Lie-Wal51",
+          "type": "building",
+          "room": "1.OG - 56"
+        },
+        {
+          "id": "Lie-Wal51",
+          "type": "building",
+          "room": "1.OG - 56"
+        }
+      ],
+      "slaInformation": {
+        "type": "string",
+        "status": "string",
+        "statusReason": "string",
+        "targetResolutionDateTime": "2020-06-16T13:57:16.123+02:00",
+        "interventionDateTime": "2020-06-16T13:57:16.123+02:00",
+        "statusRequested": "string",
+        "serviceDownDurationBrutto": 7,
+        "serviceDownDurationNetto": 7,
+        "suspendTime": 7
+      },
+      "appointments": [
+        {
+          "appointmentId": "string",
+          "earliestAppointmentTimeStamp": "2020-06-16T13:57:16.123+02:00",
+          "outOfSla": true,
+          "outOfSlaReason": 7,
+          "sourceSystem": "string",
+          "appointmentText": "string",
+          "startDateTime": "2022-10-25T13:57:16.123+02:00",
+          "endDateTime": "2022-10-25T14:57:16.456+02:00",
+          "slotType": 7,
+          "appointmentStatus": {
+            "text": "string",
+            "code": 7,
+            "dateTime": "2020-06-16T13:57:16.123+02:00"
+          }
+        },
+        {
+          "appointmentId": "string",
+          "earliestAppointmentTimeStamp": "2020-06-16T13:57:16.123+02:00",
+          "outOfSla": true,
+          "outOfSlaReason": 7,
+          "sourceSystem": "string",
+          "appointmentText": "string",
+          "startDateTime": "2022-10-25T13:57:16.123+02:00",
+          "endDateTime": "2022-10-25T14:57:16.456+02:00",
+          "slotType": 7,
+          "appointmentStatus": {
+            "text": "string",
+            "code": 7,
+            "dateTime": "2020-06-16T13:57:16.123+02:00"
+          }
+        }
+      ],
+      "worklogs": [
+        {
+          "sourceWorklogId": "wl-156",
+          "summary": "Implemented, will be active tomorrow",
+          "notes": "Firewall Rules implemented. They will be active from tomorrow morning 08:00",
+          "additionalDescription": "Added some comments in attached file.",
+          "creator": "Lukas Walder",
+          "createdDateTime": "2020-06-16T13:57:16.123+02:00",
+          "viewAccess": "public",
+          "additionalInformation": [
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            },
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            }
+          ],
+          "effortTime": 120,
+          "taskId": "tsk-48522",
+          "type": "automatically generated"
+        },
+        {
+          "sourceWorklogId": "wl-156",
+          "summary": "Implemented, will be active tomorrow",
+          "notes": "Firewall Rules implemented. They will be active from tomorrow morning 08:00",
+          "additionalDescription": "Added some comments in attached file.",
+          "creator": "Lukas Walder",
+          "createdDateTime": "2020-06-16T13:57:16.123+02:00",
+          "viewAccess": "public",
+          "additionalInformation": [
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            },
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            }
+          ],
+          "effortTime": 120,
+          "taskId": "tsk-48522",
+          "type": "automatically generated"
+        }
+      ],
+      "attachments": [
+        {
+          "name": "document.pdf",
+          "sourceAttachmentId": "att-456",
+          "binaryData": "VGVzdA0=",
+          "link": "https://example.com/files/id-s6h4564896",
+          "worklogId": "wl-156"
+        },
+        {
+          "name": "document.pdf",
+          "sourceAttachmentId": "att-456",
+          "binaryData": "VGVzdA0=",
+          "link": "https://example.com/files/id-s6h4564896",
+          "worklogId": "wl-156"
+        }
+      ],
+      "tasks": [
+        {
+          "sourceTaskId": "tsk-885",
+          "targetTaskId": "trgtsk-dhf64",
+          "targetApplicationId": "Cablex",
+          "sequenceNumberTask": 1,
+          "createDateTime": "2021-11-23T16:46:29.612+01:00",
+          "statusInfo": {
+            "status": "pending",
+            "statusReason": "Awaiting Clarification",
+            "statusDateTime": "2022-04-17T15:00:00.123+02:00",
+            "extStatus": "notified",
+            "extStatusReason": "Awaiting Clarification",
+            "extStatusDateTime": "2022-04-17T15:00:00.123+02:00"
+          },
+          "summary": "Check implementation.",
+          "notes": "Check implementation of Firewall Connectivity",
+          "involvedParties": [
+            {
+              "id": "maju",
+              "code": "code",
+              "externalReferenceNumber": "externalReferenceNumber",
+              "companyName": "companyName",
+              "companyIndexNumber": "companyIndexNumber",
+              "customerMasterAccount": "string",
+              "title": "ms",
+              "segment": "res",
+              "firstName": "Martha",
+              "lastName": "Jung",
+              "language": "fr",
+              "vip": false,
+              "sensitive": false,
+              "department": "Customer Assurance Center",
+              "organization": "INI-DOS-TDE",
+              "supportOrganization": "DOS",
+              "supportGroupName": "ARS Engineering",
+              "supportGroup": "CWS-CAC",
+              "supportCompany": "Cablex",
+              "contactPoints": [
+                {
+                  "type": "address",
+                  "value": "+41 79 520 89 65",
+                  "address": {
+                    "street": "Gerbiweg",
+                    "houseNumber": "24a",
+                    "locationDescription": "The red house.",
+                    "flatId": "F 8.2",
+                    "zip": "3274",
+                    "city": "Bohl",
+                    "additionalCity": "Thurgau",
+                    "country": "CH"
+                  },
+                  "preferred": true
+                },
+                {
+                  "type": "address",
+                  "value": "+41 79 520 89 65",
+                  "address": {
+                    "street": "Gerbiweg",
+                    "houseNumber": "24a",
+                    "locationDescription": "The red house.",
+                    "flatId": "F 8.2",
+                    "zip": "3274",
+                    "city": "Bohl",
+                    "additionalCity": "Thurgau",
+                    "country": "CH"
+                  },
+                  "preferred": true
+                }
+              ],
+              "contactPerson": {
+                "id": "maju",
+                "title": "ms",
+                "firstName": "Lukas",
+                "lastName": "Walder",
+                "comment": "Please ring at neighbours house.",
+                "contactPoints": [
+                  {
+                    "type": "address",
+                    "value": "+41 79 520 89 65",
+                    "address": {
+                      "street": "Gerbiweg",
+                      "houseNumber": "24a",
+                      "locationDescription": "The red house.",
+                      "flatId": "F 8.2",
+                      "zip": "3274",
+                      "city": "Bohl",
+                      "additionalCity": "Thurgau",
+                      "country": "CH"
+                    },
+                    "preferred": true
+                  },
+                  {
+                    "type": "address",
+                    "value": "+41 79 520 89 65",
+                    "address": {
+                      "street": "Gerbiweg",
+                      "houseNumber": "24a",
+                      "locationDescription": "The red house.",
+                      "flatId": "F 8.2",
+                      "zip": "3274",
+                      "city": "Bohl",
+                      "additionalCity": "Thurgau",
+                      "country": "CH"
+                    },
+                    "preferred": true
+                  }
+                ]
+              },
+              "role": "caller",
+              "partyType": "Cablex",
+              "floor": "2.OG",
+              "room": "L0/H22",
+              "desk": "D 1.1"
+            },
+            {
+              "id": "maju",
+              "code": "code",
+              "externalReferenceNumber": "externalReferenceNumber",
+              "companyName": "companyName",
+              "companyIndexNumber": "companyIndexNumber",
+              "customerMasterAccount": "string",
+              "title": "ms",
+              "segment": "res",
+              "firstName": "Martha",
+              "lastName": "Jung",
+              "language": "fr",
+              "vip": false,
+              "sensitive": false,
+              "department": "Customer Assurance Center",
+              "organization": "INI-DOS-TDE",
+              "supportOrganization": "DOS",
+              "supportGroupName": "ARS Engineering",
+              "supportGroup": "CWS-CAC",
+              "supportCompany": "Cablex",
+              "contactPoints": [
+                {
+                  "type": "address",
+                  "value": "+41 79 520 89 65",
+                  "address": {
+                    "street": "Gerbiweg",
+                    "houseNumber": "24a",
+                    "locationDescription": "The red house.",
+                    "flatId": "F 8.2",
+                    "zip": "3274",
+                    "city": "Bohl",
+                    "additionalCity": "Thurgau",
+                    "country": "CH"
+                  },
+                  "preferred": true
+                },
+                {
+                  "type": "address",
+                  "value": "+41 79 520 89 65",
+                  "address": {
+                    "street": "Gerbiweg",
+                    "houseNumber": "24a",
+                    "locationDescription": "The red house.",
+                    "flatId": "F 8.2",
+                    "zip": "3274",
+                    "city": "Bohl",
+                    "additionalCity": "Thurgau",
+                    "country": "CH"
+                  },
+                  "preferred": true
+                }
+              ],
+              "contactPerson": {
+                "id": "maju",
+                "title": "ms",
+                "firstName": "Lukas",
+                "lastName": "Walder",
+                "comment": "Please ring at neighbours house.",
+                "contactPoints": [
+                  {
+                    "type": "address",
+                    "value": "+41 79 520 89 65",
+                    "address": {
+                      "street": "Gerbiweg",
+                      "houseNumber": "24a",
+                      "locationDescription": "The red house.",
+                      "flatId": "F 8.2",
+                      "zip": "3274",
+                      "city": "Bohl",
+                      "additionalCity": "Thurgau",
+                      "country": "CH"
+                    },
+                    "preferred": true
+                  },
+                  {
+                    "type": "address",
+                    "value": "+41 79 520 89 65",
+                    "address": {
+                      "street": "Gerbiweg",
+                      "houseNumber": "24a",
+                      "locationDescription": "The red house.",
+                      "flatId": "F 8.2",
+                      "zip": "3274",
+                      "city": "Bohl",
+                      "additionalCity": "Thurgau",
+                      "country": "CH"
+                    },
+                    "preferred": true
+                  }
+                ]
+              },
+              "role": "caller",
+              "partyType": "Cablex",
+              "floor": "2.OG",
+              "room": "L0/H22",
+              "desk": "D 1.1"
+            }
+          ],
+          "priority": "low",
+          "pikettRequired": true,
+          "resolution": {
+            "description": "This Incident is cancelled because of some reason.",
+            "solvedBy": "string",
+            "causedBy": "string",
+            "resolutionDateTime": "2022-07-08T09:32:59.564+01:00",
+            "serviceAvailable": true,
+            "customerConfirmed": true
+          },
+          "categorizations": [
+            {
+              "tier1": "Phone",
+              "tier2": "Desktop phone",
+              "tier3": "Repair",
+              "type": "operational",
+              "additionalInformation": [
+                {
+                  "name": "On-Demand",
+                  "attributes": [
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    },
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    }
+                  ]
+                },
+                {
+                  "name": "On-Demand",
+                  "attributes": [
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    },
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tier1": "Phone",
+              "tier2": "Desktop phone",
+              "tier3": "Repair",
+              "type": "operational",
+              "additionalInformation": [
+                {
+                  "name": "On-Demand",
+                  "attributes": [
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    },
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    }
+                  ]
+                },
+                {
+                  "name": "On-Demand",
+                  "attributes": [
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    },
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "additionalInformation": [
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            },
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            }
+          ],
+          "billing": {
+            "executionReports": [
+              {
+                "position": 7,
+                "seAccount": "string",
+                "startDateTime": "2020-06-16T13:57:16.123+02:00",
+                "endDateTime": "2020-06-16T13:57:16.123+02:00",
+                "workingTime": 7,
+                "travelTime": 7,
+                "description": "string"
+              },
+              {
+                "position": 7,
+                "seAccount": "string",
+                "startDateTime": "2020-06-16T13:57:16.123+02:00",
+                "endDateTime": "2020-06-16T13:57:16.123+02:00",
+                "workingTime": 7,
+                "travelTime": 7,
+                "description": "string"
+              }
+            ],
+            "workReports": [
+              {
+                "sarId": 7,
+                "initials": "string",
+                "createDateTime": "2020-06-16T13:57:16.123+02:00",
+                "workCosts": [
+                  {
+                    "allocationCode": 7,
+                    "workingTime": 7
+                  },
+                  {
+                    "allocationCode": 7,
+                    "workingTime": 7
+                  }
+                ],
+                "workFlats": [
+                  {
+                    "allocationCode": 7,
+                    "flatQuantity": 7
+                  },
+                  {
+                    "allocationCode": 7,
+                    "flatQuantity": 7
+                  }
+                ],
+                "materials": [
+                  {
+                    "materialNumber": "string",
+                    "materialQuantity": 7,
+                    "materialPrice": 10,
+                    "accountingCode": 7
+                  },
+                  {
+                    "materialNumber": "string",
+                    "materialQuantity": 7,
+                    "materialPrice": 10,
+                    "accountingCode": 7
+                  }
+                ]
+              },
+              {
+                "sarId": 7,
+                "initials": "string",
+                "createDateTime": "2020-06-16T13:57:16.123+02:00",
+                "workCosts": [
+                  {
+                    "allocationCode": 7,
+                    "workingTime": 7
+                  },
+                  {
+                    "allocationCode": 7,
+                    "workingTime": 7
+                  }
+                ],
+                "workFlats": [
+                  {
+                    "allocationCode": 7,
+                    "flatQuantity": 7
+                  },
+                  {
+                    "allocationCode": 7,
+                    "flatQuantity": 7
+                  }
+                ],
+                "materials": [
+                  {
+                    "materialNumber": "string",
+                    "materialQuantity": 7,
+                    "materialPrice": 10,
+                    "accountingCode": 7
+                  },
+                  {
+                    "materialNumber": "string",
+                    "materialQuantity": 7,
+                    "materialPrice": 10,
+                    "accountingCode": 7
+                  }
+                ]
+              }
+            ]
+          },
+          "inventoryUpdates": [
+            {
+              "position": 7,
+              "type": "string",
+              "inventoryNumberOld": "string",
+              "inventoryNumberNew": "string"
+            },
+            {
+              "position": 7,
+              "type": "string",
+              "inventoryNumberOld": "string",
+              "inventoryNumberNew": "string"
+            }
+          ],
+          "appointments": [
+            {
+              "appointmentId": "string",
+              "earliestAppointmentTimeStamp": "2020-06-16T13:57:16.123+02:00",
+              "outOfSla": true,
+              "outOfSlaReason": 7,
+              "sourceSystem": "string",
+              "appointmentText": "string",
+              "startDateTime": "2022-10-25T13:57:16.123+02:00",
+              "endDateTime": "2022-10-25T14:57:16.456+02:00",
+              "slotType": 7,
+              "appointmentStatus": {
+                "text": "string",
+                "code": 7,
+                "dateTime": "2020-06-16T13:57:16.123+02:00"
+              }
+            },
+            {
+              "appointmentId": "string",
+              "earliestAppointmentTimeStamp": "2020-06-16T13:57:16.123+02:00",
+              "outOfSla": true,
+              "outOfSlaReason": 7,
+              "sourceSystem": "string",
+              "appointmentText": "string",
+              "startDateTime": "2022-10-25T13:57:16.123+02:00",
+              "endDateTime": "2022-10-25T14:57:16.456+02:00",
+              "slotType": 7,
+              "appointmentStatus": {
+                "text": "string",
+                "code": 7,
+                "dateTime": "2020-06-16T13:57:16.123+02:00"
+              }
+            }
+          ]
+        },
+        {
+          "sourceTaskId": "tsk-885",
+          "targetTaskId": "trgtsk-dhf64",
+          "targetApplicationId": "Cablex",
+          "sequenceNumberTask": 1,
+          "createDateTime": "2021-11-23T16:46:29.612+01:00",
+          "statusInfo": {
+            "status": "pending",
+            "statusReason": "Awaiting Clarification",
+            "statusDateTime": "2022-04-17T15:00:00.123+02:00",
+            "extStatus": "notified",
+            "extStatusReason": "Awaiting Clarification",
+            "extStatusDateTime": "2022-04-17T15:00:00.123+02:00"
+          },
+          "summary": "Check implementation.",
+          "notes": "Check implementation of Firewall Connectivity",
+          "involvedParties": [
+            {
+              "id": "maju",
+              "code": "code",
+              "externalReferenceNumber": "externalReferenceNumber",
+              "companyName": "companyName",
+              "companyIndexNumber": "companyIndexNumber",
+              "customerMasterAccount": "string",
+              "title": "ms",
+              "segment": "res",
+              "firstName": "Martha",
+              "lastName": "Jung",
+              "language": "fr",
+              "vip": false,
+              "sensitive": false,
+              "department": "Customer Assurance Center",
+              "organization": "INI-DOS-TDE",
+              "supportOrganization": "DOS",
+              "supportGroupName": "ARS Engineering",
+              "supportGroup": "CWS-CAC",
+              "supportCompany": "Cablex",
+              "contactPoints": [
+                {
+                  "type": "address",
+                  "value": "+41 79 520 89 65",
+                  "address": {
+                    "street": "Gerbiweg",
+                    "houseNumber": "24a",
+                    "locationDescription": "The red house.",
+                    "flatId": "F 8.2",
+                    "zip": "3274",
+                    "city": "Bohl",
+                    "additionalCity": "Thurgau",
+                    "country": "CH"
+                  },
+                  "preferred": true
+                },
+                {
+                  "type": "address",
+                  "value": "+41 79 520 89 65",
+                  "address": {
+                    "street": "Gerbiweg",
+                    "houseNumber": "24a",
+                    "locationDescription": "The red house.",
+                    "flatId": "F 8.2",
+                    "zip": "3274",
+                    "city": "Bohl",
+                    "additionalCity": "Thurgau",
+                    "country": "CH"
+                  },
+                  "preferred": true
+                }
+              ],
+              "contactPerson": {
+                "id": "maju",
+                "title": "ms",
+                "firstName": "Lukas",
+                "lastName": "Walder",
+                "comment": "Please ring at neighbours house.",
+                "contactPoints": [
+                  {
+                    "type": "address",
+                    "value": "+41 79 520 89 65",
+                    "address": {
+                      "street": "Gerbiweg",
+                      "houseNumber": "24a",
+                      "locationDescription": "The red house.",
+                      "flatId": "F 8.2",
+                      "zip": "3274",
+                      "city": "Bohl",
+                      "additionalCity": "Thurgau",
+                      "country": "CH"
+                    },
+                    "preferred": true
+                  },
+                  {
+                    "type": "address",
+                    "value": "+41 79 520 89 65",
+                    "address": {
+                      "street": "Gerbiweg",
+                      "houseNumber": "24a",
+                      "locationDescription": "The red house.",
+                      "flatId": "F 8.2",
+                      "zip": "3274",
+                      "city": "Bohl",
+                      "additionalCity": "Thurgau",
+                      "country": "CH"
+                    },
+                    "preferred": true
+                  }
+                ]
+              },
+              "role": "caller",
+              "partyType": "Cablex",
+              "floor": "2.OG",
+              "room": "L0/H22",
+              "desk": "D 1.1"
+            },
+            {
+              "id": "maju",
+              "code": "code",
+              "externalReferenceNumber": "externalReferenceNumber",
+              "companyName": "companyName",
+              "companyIndexNumber": "companyIndexNumber",
+              "customerMasterAccount": "string",
+              "title": "ms",
+              "segment": "res",
+              "firstName": "Martha",
+              "lastName": "Jung",
+              "language": "fr",
+              "vip": false,
+              "sensitive": false,
+              "department": "Customer Assurance Center",
+              "organization": "INI-DOS-TDE",
+              "supportOrganization": "DOS",
+              "supportGroupName": "ARS Engineering",
+              "supportGroup": "CWS-CAC",
+              "supportCompany": "Cablex",
+              "contactPoints": [
+                {
+                  "type": "address",
+                  "value": "+41 79 520 89 65",
+                  "address": {
+                    "street": "Gerbiweg",
+                    "houseNumber": "24a",
+                    "locationDescription": "The red house.",
+                    "flatId": "F 8.2",
+                    "zip": "3274",
+                    "city": "Bohl",
+                    "additionalCity": "Thurgau",
+                    "country": "CH"
+                  },
+                  "preferred": true
+                },
+                {
+                  "type": "address",
+                  "value": "+41 79 520 89 65",
+                  "address": {
+                    "street": "Gerbiweg",
+                    "houseNumber": "24a",
+                    "locationDescription": "The red house.",
+                    "flatId": "F 8.2",
+                    "zip": "3274",
+                    "city": "Bohl",
+                    "additionalCity": "Thurgau",
+                    "country": "CH"
+                  },
+                  "preferred": true
+                }
+              ],
+              "contactPerson": {
+                "id": "maju",
+                "title": "ms",
+                "firstName": "Lukas",
+                "lastName": "Walder",
+                "comment": "Please ring at neighbours house.",
+                "contactPoints": [
+                  {
+                    "type": "address",
+                    "value": "+41 79 520 89 65",
+                    "address": {
+                      "street": "Gerbiweg",
+                      "houseNumber": "24a",
+                      "locationDescription": "The red house.",
+                      "flatId": "F 8.2",
+                      "zip": "3274",
+                      "city": "Bohl",
+                      "additionalCity": "Thurgau",
+                      "country": "CH"
+                    },
+                    "preferred": true
+                  },
+                  {
+                    "type": "address",
+                    "value": "+41 79 520 89 65",
+                    "address": {
+                      "street": "Gerbiweg",
+                      "houseNumber": "24a",
+                      "locationDescription": "The red house.",
+                      "flatId": "F 8.2",
+                      "zip": "3274",
+                      "city": "Bohl",
+                      "additionalCity": "Thurgau",
+                      "country": "CH"
+                    },
+                    "preferred": true
+                  }
+                ]
+              },
+              "role": "caller",
+              "partyType": "Cablex",
+              "floor": "2.OG",
+              "room": "L0/H22",
+              "desk": "D 1.1"
+            }
+          ],
+          "priority": "low",
+          "pikettRequired": true,
+          "resolution": {
+            "description": "This Incident is cancelled because of some reason.",
+            "solvedBy": "string",
+            "causedBy": "string",
+            "resolutionDateTime": "2022-07-08T09:32:59.564+01:00",
+            "serviceAvailable": true,
+            "customerConfirmed": true
+          },
+          "categorizations": [
+            {
+              "tier1": "Phone",
+              "tier2": "Desktop phone",
+              "tier3": "Repair",
+              "type": "operational",
+              "additionalInformation": [
+                {
+                  "name": "On-Demand",
+                  "attributes": [
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    },
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    }
+                  ]
+                },
+                {
+                  "name": "On-Demand",
+                  "attributes": [
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    },
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tier1": "Phone",
+              "tier2": "Desktop phone",
+              "tier3": "Repair",
+              "type": "operational",
+              "additionalInformation": [
+                {
+                  "name": "On-Demand",
+                  "attributes": [
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    },
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    }
+                  ]
+                },
+                {
+                  "name": "On-Demand",
+                  "attributes": [
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    },
+                    {
+                      "name": "SAP-Debitor",
+                      "value": "D-45978545"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "additionalInformation": [
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            },
+            {
+              "name": "On-Demand",
+              "attributes": [
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                },
+                {
+                  "name": "SAP-Debitor",
+                  "value": "D-45978545"
+                }
+              ]
+            }
+          ],
+          "billing": {
+            "executionReports": [
+              {
+                "position": 7,
+                "seAccount": "string",
+                "startDateTime": "2020-06-16T13:57:16.123+02:00",
+                "endDateTime": "2020-06-16T13:57:16.123+02:00",
+                "workingTime": 7,
+                "travelTime": 7,
+                "description": "string"
+              },
+              {
+                "position": 7,
+                "seAccount": "string",
+                "startDateTime": "2020-06-16T13:57:16.123+02:00",
+                "endDateTime": "2020-06-16T13:57:16.123+02:00",
+                "workingTime": 7,
+                "travelTime": 7,
+                "description": "string"
+              }
+            ],
+            "workReports": [
+              {
+                "sarId": 7,
+                "initials": "string",
+                "createDateTime": "2020-06-16T13:57:16.123+02:00",
+                "workCosts": [
+                  {
+                    "allocationCode": 7,
+                    "workingTime": 7
+                  },
+                  {
+                    "allocationCode": 7,
+                    "workingTime": 7
+                  }
+                ],
+                "workFlats": [
+                  {
+                    "allocationCode": 7,
+                    "flatQuantity": 7
+                  },
+                  {
+                    "allocationCode": 7,
+                    "flatQuantity": 7
+                  }
+                ],
+                "materials": [
+                  {
+                    "materialNumber": "string",
+                    "materialQuantity": 7,
+                    "materialPrice": 10,
+                    "accountingCode": 7
+                  },
+                  {
+                    "materialNumber": "string",
+                    "materialQuantity": 7,
+                    "materialPrice": 10,
+                    "accountingCode": 7
+                  }
+                ]
+              },
+              {
+                "sarId": 7,
+                "initials": "string",
+                "createDateTime": "2020-06-16T13:57:16.123+02:00",
+                "workCosts": [
+                  {
+                    "allocationCode": 7,
+                    "workingTime": 7
+                  },
+                  {
+                    "allocationCode": 7,
+                    "workingTime": 7
+                  }
+                ],
+                "workFlats": [
+                  {
+                    "allocationCode": 7,
+                    "flatQuantity": 7
+                  },
+                  {
+                    "allocationCode": 7,
+                    "flatQuantity": 7
+                  }
+                ],
+                "materials": [
+                  {
+                    "materialNumber": "string",
+                    "materialQuantity": 7,
+                    "materialPrice": 10,
+                    "accountingCode": 7
+                  },
+                  {
+                    "materialNumber": "string",
+                    "materialQuantity": 7,
+                    "materialPrice": 10,
+                    "accountingCode": 7
+                  }
+                ]
+              }
+            ]
+          },
+          "inventoryUpdates": [
+            {
+              "position": 7,
+              "type": "string",
+              "inventoryNumberOld": "string",
+              "inventoryNumberNew": "string"
+            },
+            {
+              "position": 7,
+              "type": "string",
+              "inventoryNumberOld": "string",
+              "inventoryNumberNew": "string"
+            }
+          ],
+          "appointments": [
+            {
+              "appointmentId": "string",
+              "earliestAppointmentTimeStamp": "2020-06-16T13:57:16.123+02:00",
+              "outOfSla": true,
+              "outOfSlaReason": 7,
+              "sourceSystem": "string",
+              "appointmentText": "string",
+              "startDateTime": "2022-10-25T13:57:16.123+02:00",
+              "endDateTime": "2022-10-25T14:57:16.456+02:00",
+              "slotType": 7,
+              "appointmentStatus": {
+                "text": "string",
+                "code": 7,
+                "dateTime": "2020-06-16T13:57:16.123+02:00"
+              }
+            },
+            {
+              "appointmentId": "string",
+              "earliestAppointmentTimeStamp": "2020-06-16T13:57:16.123+02:00",
+              "outOfSla": true,
+              "outOfSlaReason": 7,
+              "sourceSystem": "string",
+              "appointmentText": "string",
+              "startDateTime": "2022-10-25T13:57:16.123+02:00",
+              "endDateTime": "2022-10-25T14:57:16.456+02:00",
+              "slotType": 7,
+              "appointmentStatus": {
+                "text": "string",
+                "code": 7,
+                "dateTime": "2020-06-16T13:57:16.123+02:00"
+              }
+            }
+          ]
+        }
+      ],
+      "locationData": {
+        "locationAlwaysOn": "string",
+        "gaiaId": "string",
+        "accessType": "string",
+        "usageCount": "string",
+        "lineCount": "string",
+        "activationId": "string"
+      },
+      "additionalInformation": [
+        {
+          "name": "On-Demand",
+          "attributes": [
+            {
+              "name": "SAP-Debitor",
+              "value": "D-45978545"
+            },
+            {
+              "name": "SAP-Debitor",
+              "value": "D-45978545"
+            }
+          ]
+        },
+        {
+          "name": "On-Demand",
+          "attributes": [
+            {
+              "name": "SAP-Debitor",
+              "value": "D-45978545"
+            },
+            {
+              "name": "SAP-Debitor",
+              "value": "D-45978545"
+            }
+          ]
+        }
+      ],
+      "billingInformation": {
+        "agentId": "string",
+        "allocationType": "string",
+        "allocationCode": "string",
+        "amount": "string"
+      },
+      "requestId": "662243271e8813a09df3915b9ae9606b"
+    }
+  },
+  "eventType": "AI Ops Blue and Red INCs",
+  "eventId": "uuid",
+  "publisherId": "AIOps",
+  "timestamp": "2023-10-31T07:23:01.253295+01:00"
+}

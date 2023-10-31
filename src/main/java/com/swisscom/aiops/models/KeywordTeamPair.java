@@ -8,8 +8,7 @@ import lombok.*;
 @EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
-public class IncRequest {
-    private final String id;
-    private final String description;
-    private final String summary;
+public class KeywordTeamPair {
+    private final String keyword;
+    private final String team;
 }

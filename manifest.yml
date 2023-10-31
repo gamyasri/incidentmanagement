@@ -1,0 +1,11 @@
+---
+applications:
+  - name: aiops-backend
+    buildpack: java_buildpack
+    disk_quota: 1024M
+    memory: 2G
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 17.+ }, memory_calculator: { stack_threads: 10 } }'
+      JAVA_OPTS: -Xmx2G -XX:MaxDirectMemorySize=100M -Dlog4j2.formatMsgNoLookups=true
+    services:
+      - aiops-backend-cups
