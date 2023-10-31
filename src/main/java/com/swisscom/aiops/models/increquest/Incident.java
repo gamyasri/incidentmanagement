@@ -17,6 +17,8 @@ public class Incident {
     private final String impact;
     private final String urgency;
     private final String priority;
+    private final String sourceIncidentId;
+    private final String reportedDateTime;
 
     public String getTextContent() {
         return summary + " " + notes + " " + publicDescription;

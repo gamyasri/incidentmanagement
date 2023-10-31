@@ -18,7 +18,7 @@ public class TeamAnalyzer {
         teamsWithCount.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue())
                 .forEach(entry -> {
-                    teamOutputBuilder.append(entry.getKey()).append(" was found ").append(entry.getValue());
+                    teamOutputBuilder.append("- ").append(entry.getKey()).append("\\\r");
                 });
 
 

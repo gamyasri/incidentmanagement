@@ -1,0 +1,75 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoic3dpc3Njb21cL2FjY291bnRzXC9hMVwvNDAwMDE5MlwvcHJvamVjdHNcLzMwXC9hc3NldHNcLzgzXC81OTEyOFwvYzk1Y2E5ODk2NGQzMzA0OGMyNmU4MDI2MjY3OTNlNDgtMTU4NTIzMjY0Ni5zdmcifQ:swisscom:Mbj_BsW8uCYgrd9B2SF5wf_C0e_5a8jnUsqF8xu9Zg8?width=48&color=255,0,0,1"
+            }
+          ],
+          "width": "auto"
+        },
+        {
+          "type": "Column",
+          "verticalContentAlignment": "Bottom",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "large",
+              "weight": "bolder",
+              "text": "New Incident",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Created {{createdAt}}",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Summary",
+          "value": "{{summary}}"
+        },
+        {
+          "title": "ID",
+          "value": "{{incNumber}}"
+        }
+      ],
+      "separator": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "AI-bot has determined the following team(s) responsible:",
+      "wrap": true,
+      "separator": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "{{teams}}",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "View Incident",
+      "url": "{{url}}"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}

@@ -2,6 +2,7 @@ package com.swisscom.aiops.controller;
 
 import com.swisscom.aiops.models.AnalysisResponse;
 import com.swisscom.aiops.models.CheckRequest;
+import com.swisscom.aiops.models.PlaceHolderCollection;
 import com.swisscom.aiops.models.increquest.IncRequest;
 import com.swisscom.aiops.models.KeywordTeamPair;
 import com.swisscom.aiops.services.KeywordTeamDataSource;
@@ -23,10 +24,23 @@ public class AnalysisController {
 
         final List<KeywordTeamPair> records = KeywordTeamDataSource.getKeywordTeamPairs();
         final String teamNames = TeamAnalyzer.determineTeam(records, relevantContent);
+        final PlaceHolderCollection placeHolderCollection = PlaceHolderCollection.builder()
+                .summary(incRequest.getIncident().getIncident().getSummary())
+                .teams(teamNames)
+                .incNumber(incRequest.getIncident().getIncident().getSourceIncidentId())
+                .createdAt(incRequest.getIncident().getIncident().getReportedDateTime())
+                .url("www.swisscom.ch")
+                .build();
+         String template = KeywordTeamDataSource.getTeamsMessageTemplate()
+        .replace("{{summary}}", placeHolderCollection.getSummary())
+        .replace("{{createdAt}}", placeHolderCollection.getCreatedAt())
+        .replace("{{incNumber}}", placeHolderCollection.getIncNumber())
+        .replace("{{url}}", placeHolderCollection.getUrl())
+        .replace("{{teams}}", placeHolderCollection.getTeams());
 
-        // TODO create Teams message with team name in it (MS Teams webhook or MS Teams channel mail address)
-        return teamNames;
+        return template;
     }
+
 
     @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/check")

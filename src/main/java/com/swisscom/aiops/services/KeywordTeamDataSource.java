@@ -1,14 +1,19 @@
 package com.swisscom.aiops.services;
 
 import com.swisscom.aiops.models.KeywordTeamPair;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.DefaultResourceLoader;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import static org.hibernate.engine.config.spi.StandardConverters.asString;
 
 public class KeywordTeamDataSource {
 
@@ -26,6 +31,22 @@ public class KeywordTeamDataSource {
             }
         }
         return records;
+    }
+
+    public static String getTeamsMessageTemplate() throws URISyntaxException {
+        try {
+            Resource resource = new ClassPathResource("teams_message.json");
+            BufferedReader br = new BufferedReader(new InputStreamReader(resource.getInputStream()),1024);
+            StringBuilder stringBuilder = new StringBuilder();
+            String line;
+            while ((line = br.readLine()) != null) {
+                stringBuilder.append(line).append('\n');
+            }
+            br.close();
+            return stringBuilder.toString();
+        } catch (Exception e) {
+            throw new IllegalArgumentException("file not found! " + e);
+        }
     }
 
     private static File getFileFromResource(String fileName) throws URISyntaxException {
