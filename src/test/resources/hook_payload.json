@@ -321,9 +321,9 @@
         "services": [
           {
             "identification": {
-              "type": "MySwisscom-Order",
+              "type": "Order",
               "id": "av-sw-456",
-              "name": "MySwisscom-Order Wireless",
+              "name": "Order Wireless",
               "locationId": "loc-CH-BE-3052",
               "label": "ONeITSM"
             },

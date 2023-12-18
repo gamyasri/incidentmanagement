@@ -1,4 +1,4 @@
-package com.swisscom.aiops.models.increquest;
+package com.aiops.models.increquest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;

@@ -1,10 +1,8 @@
-package com.swisscom.aiops.services;
+package com.aiops.services;
 
-import com.swisscom.aiops.models.KeywordTeamPair;
+import com.aiops.models.KeywordTeamPair;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
-import org.springframework.core.io.ResourceLoader;
 
 import java.io.*;
 import java.net.URISyntaxException;
@@ -12,8 +10,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-import static org.hibernate.engine.config.spi.StandardConverters.asString;
 
 public class KeywordTeamDataSource {
 

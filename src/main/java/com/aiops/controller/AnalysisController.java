@@ -1,12 +1,12 @@
-package com.swisscom.aiops.controller;
+package com.aiops.controller;
 
-import com.swisscom.aiops.models.AnalysisResponse;
-import com.swisscom.aiops.models.CheckRequest;
-import com.swisscom.aiops.models.PlaceHolderCollection;
-import com.swisscom.aiops.models.increquest.IncRequest;
-import com.swisscom.aiops.models.KeywordTeamPair;
-import com.swisscom.aiops.services.KeywordTeamDataSource;
-import com.swisscom.aiops.services.TeamAnalyzer;
+import com.aiops.models.AnalysisResponse;
+import com.aiops.models.CheckRequest;
+import com.aiops.models.KeywordTeamPair;
+import com.aiops.models.PlaceHolderCollection;
+import com.aiops.models.increquest.IncRequest;
+import com.aiops.services.KeywordTeamDataSource;
+import com.aiops.services.TeamAnalyzer;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -29,7 +29,7 @@ public class AnalysisController {
                 .teams(teamNames)
                 .incNumber(incRequest.getIncident().getIncident().getSourceIncidentId())
                 .createdAt(incRequest.getIncident().getIncident().getReportedDateTime())
-                .url("www.swisscom.ch")
+                .url("www.gamyasripatnayakuni.com")
                 .build();
          String template = KeywordTeamDataSource.getTeamsMessageTemplate()
         .replace("{{summary}}", placeHolderCollection.getSummary())

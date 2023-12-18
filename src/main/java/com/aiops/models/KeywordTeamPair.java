@@ -1,4 +1,4 @@
-package com.swisscom.aiops.models;
+package com.aiops.models;
 
 import lombok.*;
 

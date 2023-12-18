@@ -1,4 +1,4 @@
-package com.swisscom.aiops;
+package com.aiops;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

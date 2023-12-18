@@ -1,6 +1,6 @@
-package com.swisscom.aiops.services;
+package com.aiops.services;
 
-import com.swisscom.aiops.models.KeywordTeamPair;
+import com.aiops.models.KeywordTeamPair;
 
 import java.util.List;
 import java.util.Map;

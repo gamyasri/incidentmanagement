@@ -1,9 +1,9 @@
-package com.swisscom.aiops.controller;
+package com.aiops.controller;
 
+import com.aiops.models.increquest.IncRequest;
+import com.aiops.models.increquest.Incident;
+import com.aiops.models.increquest.IncidentWrapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.swisscom.aiops.models.increquest.IncRequest;
-import com.swisscom.aiops.models.increquest.Incident;
-import com.swisscom.aiops.models.increquest.IncidentWrapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.ResourceUtils;
 

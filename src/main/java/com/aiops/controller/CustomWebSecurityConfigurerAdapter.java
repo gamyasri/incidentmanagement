@@ -1,4 +1,4 @@
-package com.swisscom.aiops.controller;
+package com.aiops.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

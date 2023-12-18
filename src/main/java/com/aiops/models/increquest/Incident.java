@@ -1,4 +1,4 @@
-package com.swisscom.aiops.models.increquest;
+package com.aiops.models.increquest;
 
 import lombok.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
